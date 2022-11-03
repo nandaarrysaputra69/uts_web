@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.navbar {
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(background/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.678);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.content-wrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-left h1 {
+    font-size: 400%;
+}

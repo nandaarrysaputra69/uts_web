@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>COVID-19 Tracker</title>
+    </head>
+
+    <body>
+        <div class="hero">
+            <div class="overlay">
+                <div class="container">
+                    <div class="animate__animated animate__fadeInDown row content-wrapper">
+                        <div class="col content-left text-start">
+                            <h1 class="title mb-3">TRACKER COVID-19 INDONESIA</h1>
+                            <p class="desc">Situs ini menampilkan data seputar kasus covid-19 yang terjadi di Indonesia. Situs ini menampilkan data yang akurat dan juga realtime.</p>
+                            <div class="navbar">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="province.html">Province</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col content-right">
+                            <div class="data">
+                                <div class="row">
+                                    <div class="box text-end mb-1" id="total_infected"></div>
+
+                                    <div class="box text-end" id="total_recovered"></div>
+
+                                    <div class="box text-end mt-1" id="total_fatal"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
